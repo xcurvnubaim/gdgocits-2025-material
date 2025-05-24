@@ -1,0 +1,149 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Warna background lembut */
+  }
+  
+  /* Header */
+  header {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+  }
+  
+  header .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+  }
+  
+  header h1 {
+    font-size: 1.8rem;
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Section */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  .oi {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Cart Items */
+  .cart-item {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  
+  .cart-item h4 {
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+  }
+  
+  .cart-item p {
+    color: #555;
+    font-size: 1rem;
+  }
+  
+  .cart-item img {
+    border-radius: 5px;
+    max-height: 150px;
+  }
+  
+  /* Cart Summary */
+  .border {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .border h3 {
+    font-size: 1.5rem;
+    color: #333;
+    text-align: center;
+  }
+  
+  .border .d-flex {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  .border button {
+    font-size: 1.1rem;
+    font-weight: bold;
+    background-color: #ffcc00;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .border button:hover {
+    background-color: #ffdb4d;
+  }
+  
+  /* Footer */
+  footer {
+    margin-top: 50px;
+    color: #fff;
+    font-size: 1rem;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    .header h1 {
+      font-size: 1.5rem;
+    }
+  
+    .cart-item img {
+      max-height: 100px;
+    }
+  
+    .border h3 {
+      font-size: 1.2rem;
+    }
+  
+    .border button {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .cart-item .row {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .cart-item img {
+      max-height: 80px;
+    }
+  
+    .cart-item h4, .cart-item p {
+      text-align: center;
+    }
+  
+    .border .d-flex {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .border .d-flex span {
+      margin-bottom: 5px;
+    }
+  }
+  

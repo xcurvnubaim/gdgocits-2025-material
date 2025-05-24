@@ -1,0 +1,44 @@
+.navbar-collapse .navbar-nav .nav-item a:hover {
+    color: #ff523b; 
+}
+
+.cart-item {
+    margin-bottom: 1rem; 
+}
+
+.product-card {
+    height: 100%;
+}
+
+.product-card img {
+    height: 200px; 
+    object-fit: contain;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .product-card img {
+        height: 150px;
+    }
+}
+@media (max-width: 576px) {
+    .product-card img {
+        height: 120px; 
+        }
+
+    .product-card {
+        margin-bottom: 20px;
+    }
+}
+
+
+
+
+.card-title a {
+    color: #333; 
+    text-decoration: none; 
+}
+
+.card-title a:hover {
+    color: #ff523b;
+}
