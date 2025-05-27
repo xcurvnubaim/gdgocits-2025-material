@@ -19,8 +19,8 @@ Dokumentasi ini berisi modul-modul pelatihan dalam keamanan siber, khususnya pad
 
 - [Cross Site Scripting (XSS)](Cross%20Site%20Scripting/Cross%20Site%20Scripting.pptx)
 - [SQL Injection, Information Disclosure & Security Misconfiguration](SQL%20Injection_information%20disclosure_Security%20misconfiguration/SQL%20Injection_information%20disclosure_Security%20misconfiguration.pdf)
-- [File Upload Attack](File%20Upload%20Attack/File%20Upload%20Attack.pptx)
 - [Broken Access Control](Broken%20Access%20Control/Broken%20Access%20Control.pptx)
+- [File Upload Attack](File%20Upload%20Attack/File%20Upload%20Attack.pptx)
 - [Reporting & Responsible Disclosure](Reporting/GDGoC_Reporting.pdf)
 
 ---
