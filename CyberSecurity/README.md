@@ -5,7 +5,7 @@ Dokumentasi ini berisi modul-modul pelatihan dalam keamanan siber, khususnya pad
 
 ---
 
-## 🔰 Pre-Modules
+## Pre-Modules
 
 1. [Modul 1: Pengenalan Cyber Security](Premodules/Modul-1-Pengenalan-Cyber-Security.md)
 2. [Modul 2: Dasar-dasar Keamanan Informasi](Premodules/Modul-2-Dasar-Keamanan-Informasi.md)
@@ -15,17 +15,17 @@ Dokumentasi ini berisi modul-modul pelatihan dalam keamanan siber, khususnya pad
 
 ---
 
-## 🚨 Exploitation Modules
+## Exploitation Modules
 
-- [Broken Access Control](Broken Access Control/)
-- [Cross Site Scripting (XSS)](Cross Site Scripting/)
-- [File Upload Attack](File Upload Attack/)
-- [SQL Injection, Information Disclosure & Security Misconfiguration](SQL Injection_information disclosure_Security misconfiguration/)
-- [Reporting & Responsible Disclosure](Reporting/)
+- [Broken Access Control](Broken%20Access%20Control/Broken%20Access%20Control.pptx)
+- [Cross Site Scripting (XSS)](Cross%20Site%20Scripting/Cross%20Site%20Scripting.pptx)
+- [File Upload Attack](File%20Upload%20Attack/File%20Upload%20Attack.pptx)
+- [SQL Injection, Information Disclosure & Security Misconfiguration](SQL%20Injection_information%20disclosure_Security%20misconfiguration/SQL%20Injection_information%20disclosure_Security%20misconfiguration.pdf)
+- [Reporting & Responsible Disclosure](Reporting/GDGoC_Reporting.pdf)
 
 ---
 
-## 📌 Catatan
+## Catatan
 
 - Pastikan seluruh **Pre-Modules** telah dipahami sebelum masuk ke tahap eksploitasi.
 - Gunakan lingkungan uji (*testing environment*) yang aman saat melakukan simulasi eksploitasi.
